@@ -1,12 +1,21 @@
 {
   "name": "adgcalc.js",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Um simples package para executar calculos em js",
   "main": "functions/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["eval", "calculator", "math", "calculadora"],
+  "author": "ADG",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yADGithub/adgcalc.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yADGithub/adgcalc.js/issues"
+  },
+  "homepage": "https://github.com/yADGithub/adgcalc.js#readme",
+  "dependencies": {}
 }

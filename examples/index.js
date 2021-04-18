@@ -1,4 +1,4 @@
-const calculadora = require("./functions/calculadora");
+const calculadora = require("../functions/calculadora");
 const {arg1, arg2} = require("./config.json");
 
 console.log("\x1b[32m%s\x1b[0m", "[CALCULADORA] | Iniciando");
