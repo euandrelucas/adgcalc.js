@@ -1,7 +1,7 @@
 {
   "name": "adgcalc.js",
-  "version": "1.0.2",
-  "description": "Um simples package para executar calculos em js",
+  "version": "1.0.3",
+  "description": "A simple package to perform calculations in js",
   "main": "functions/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

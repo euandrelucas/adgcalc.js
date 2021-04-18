@@ -1,10 +1,10 @@
-# EXAMPLE
+# Example:
 ```js
-require("adgcalc.js");
-const res = calculadora.somar(1,2)
+const calc = require("adgcalc.js");
+const res = calc.somar(1,2)
 console.log(`[RES] | ${res}`)
 ```
-# RETURN
+# Console:
 ```
 $ [RES] | 3
 ```
