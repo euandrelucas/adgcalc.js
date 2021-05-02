@@ -1,9 +1,10 @@
 const calculadora = require("../functions/calculadora");
-const {arg1, arg2} = require("./config.json");
+const num = process.argv[2] || 50;
+const tar = process.argv[3] || 2;
 
 console.log("\x1b[32m%s\x1b[0m", "[CALCULADORA] | Iniciando");
 
-calculadora.somar(arg1, arg2);
-calculadora.dividir(arg1, arg2);
-calculadora.subtrair(arg1, arg2);
-calculadora.multiplicar(arg1, arg2);
+console.log(calculadora.somar(num, tar));
+console.log(calculadora.subtrair(num, tar));
+console.log(calculadora.multiplicar(num, tar));
+console.log(calculadora.dividir(num, tar));
