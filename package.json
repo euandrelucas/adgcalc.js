@@ -1,6 +1,6 @@
 {
   "name": "adgcalc.js",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A simple package to perform calculations in js",
   "main": "functions/index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-const calculadora = require("../functions/calculadora");
+const calculadora = require("../functions/index");
 const num = process.argv[2] || 50;
 const tar = process.argv[3] || 2;
 
