@@ -1,10 +1,10 @@
 {
   "name": "adgcalc.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A simple package to perform calculations in js",
   "main": "functions/index.js",
   "scripts": {
-    "run": "node examples/index.js"
+    "run": "node examples"
   },
   "keywords": ["eval", "calculator", "math", "calculadora"],
   "author": "ADG",

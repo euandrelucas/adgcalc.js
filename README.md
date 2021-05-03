@@ -1,14 +1,14 @@
-# Example:
+# Exemplo:
 ```js
 const calc = require("adgcalc.js");
-const res = calc.somar(1,2)
+const res = calc.somar(1, 1, 1) // = 3.
 console.log(`[RES] | ${res}`)
 ```
-# Running:
+# Rodando:
 ```
 npm run [num1] [num2]
 ```
-# Console:
+# Resultado:
 ```
 $ [RES] | 3
 ```
